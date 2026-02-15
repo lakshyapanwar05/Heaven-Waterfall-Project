@@ -1,6 +1,6 @@
-# CivicAI – Smart Public Issue Reporting & Assistance Platform
+# JanSetu AI – Smart Public Issue Reporting & Assistance Platform
 
- CivicAI is an AI-powered digital platform that enables citizens to report public infrastructure issues, access government services, and receive guided assistance — all in one place.
+ JanSetu AI is an AI-powered digital platform that enables citizens to report public infrastructure issues, access government services, and receive guided assistance — all in one place.
 
 ---
 
@@ -18,7 +18,7 @@ This leads to unresolved issues, lack of awareness, and inefficient governance.
 
 ## Solution
 
-CivicAI acts as a **digital helpdesk for public services** by combining:
+JanSetu AI acts as a **digital helpdesk for public services** by combining:
 
 -  Issue reporting with AI assistance
 -  AI-powered complaint classification & guidance
@@ -143,8 +143,10 @@ Notification Service (SMS / Email / Dummy API)
 
 ##  Team
 
-- [Your Name]
-- [Team Members]
+- Devashya Kothari
+- Arnav Aghniotri
+- Mayank Vishvas
+- Lakshya Panwar
 
 ---
 
