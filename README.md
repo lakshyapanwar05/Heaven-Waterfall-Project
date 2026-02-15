@@ -1,175 +1,155 @@
-🏛️ AI-Based Public Service Helpdesk & Complaint System
-📌 Overview
+# CivicAI – Smart Public Issue Reporting & Assistance Platform
 
-This project is an AI-powered web/mobile application designed to help citizens easily report public service issues and access government schemes information.
+ CivicAI is an AI-powered digital platform that enables citizens to report public infrastructure issues, access government services, and receive guided assistance — all in one place.
 
-It works as a digital government helpdesk, making complaint filing and public service access simple and efficient.
+---
 
-🚀 Problem Statement
+## Problem Statement
 
-Citizens often face problems such as:
+Citizens often face difficulty in:
+- Reporting civic issues (roads, sanitation, water, etc.)
+- Identifying the correct government authority
+- Accessing government schemes and services
+- Communicating effectively in local languages
 
-Long-running road construction causing traffic jams
+This leads to unresolved issues, lack of awareness, and inefficient governance.
 
-Water supply issues
+---
 
-Electricity problems
+## Solution
 
-Lack of awareness about government schemes
+CivicAI acts as a **digital helpdesk for public services** by combining:
 
-Difficulty in knowing where and how to report issues
+-  Issue reporting with AI assistance
+-  AI-powered complaint classification & guidance
+-  Location-based authority routing
+-  Multilingual support
+-  Real-time status tracking
+-  Government scheme discovery
 
-There is no single, simple platform that guides citizens properly.
+---
 
-💡 Our Solution
+##  Features
 
-We propose a platform where:
+###  User Authentication
+- Google OAuth login
+- Secure and simple onboarding
 
-Users log in using Aadhaar or Mobile Number
+###  Issue Reporting
+- Upload description + images
+- Auto-classification using AI
+- Suggests proper reporting method
 
-They can report public service issues easily
+###  AI Assistant
+- Guides users on how to report issues
+- Provides info on schemes like:
+  - MNREGA
+  - Ayushman Bharat
+  - Education programs
 
-AI guides them on:
+###  Smart Routing
+- Detects user location
+- Routes complaint to relevant authority
 
-How to report the issue
+###  Notification System
+- Sends alerts to authority (dummy for prototype)
+- Tracks complaint status
 
-Where to report it (online/offline)
+###  Multilingual Support
+- Supports regional languages for accessibility
 
-The system directly alerts the concerned authorities
+---
 
-Users can access information about:
+##  Tech Stack
 
-MNREGA
+### Frontend
+- React / Next.js
+- Tailwind CSS
 
-Ayushman Bharat
+### Backend
+- Node.js / Express.js
+- REST API architecture
 
-Education schemes
+### Database
+- MongoDB (Atlas)
 
-Job-related government services
+### AI Integration
+- Amazon Nova / OpenAI API
+- NLP-based classification & chatbot
 
-Multi-language support for better accessibility
+### Authentication
+- Google OAuth (Firebase/Auth0)
 
-🧠 Key Features
-🔐 Secure Login
+### Cloud & Deployment
+- AWS (EC2 / S3 / Lambda)
+- Firebase (optional)
 
-Aadhaar-based login
+---
 
-Mobile OTP login
+## 🏗️ System Architecture
+User (Web/App)
+↓
+Frontend (React / Next.js)
+↓
+Backend API (Node.js)
+↓
+AI Engine (Nova / OpenAI)
+↓
+Database (MongoDB)
+↓
+Notification Service (SMS / Email / Dummy API)
 
-📍 Issue Reporting
+---
 
-Upload image
+##  How It Works
 
-Add description
+1. User logs in via Google
+2. Reports an issue with description/image
+3. AI classifies the issue and suggests action
+4. System identifies authority based on location
+5. Complaint is logged and notification is sent
+6. User tracks progress via dashboard
 
-Select location
+---
 
-Categorize issue
+##  Use Cases
 
-🤖 AI Assistance
+- Reporting road damage or construction delays
+- Accessing healthcare schemes
+- Finding employment programs
+- Educational assistance
+- Public grievance redressal
 
-Guides users step-by-step
+---
 
-Suggests correct department
+##  Future Enhancements
 
-Auto-generates complaint format
+- Real government API integration
+- Automated authority escalation
+- Voice-based reporting
+- Real-time tracking with maps
+- Integration with smart city platforms
 
-Sends alerts to authorities
+---
 
-🌐 Local Language Support
+##  Hackathon Value
 
-Supports regional languages
+- Solves real-world civic problems
+- Scalable for Smart Cities
+- AI-driven governance support
+- Inclusive and accessible design
 
-Easy-to-understand interface
+---
 
-📚 Government Scheme Information
+##  Team
 
-Users can:
+- [Your Name]
+- [Team Members]
 
-Search schemes
+---
 
-Check eligibility
+##  Note
 
-Learn how to apply
+This is a prototype developed for the **Amazon Nova National Hackathon**.  
+Actual government integration is simulated.
 
-Access education and job services information
-
-🏗️ Tech Stack (Example)
-
-Frontend:
-
-React.js / Flutter
-
-Backend:
-
-Node.js / Express
-
-Database:
-
-MongoDB / PostgreSQL
-
-AI:
-
-NLP-based complaint classification model
-
-Multilingual language model
-
-Authentication:
-
-OTP verification
-
-Aadhaar API integration (if permitted)
-
-🔄 System Workflow
-
-User logs in
-
-User reports issue
-
-AI analyzes complaint
-
-System identifies concerned department
-
-Complaint is forwarded
-
-User gets status updates
-
-🎯 Impact
-
-Faster complaint resolution
-
-Better government transparency
-
-Increased awareness of welfare schemes
-
-Reduced middlemen dependency
-
-Digital empowerment of citizens
-
-📈 Future Enhancements
-
-Complaint tracking dashboard
-
-Integration with official government portals
-
-SMS alerts for rural users
-
-Voice-based complaint submission
-
-Data analytics for government departments
-
-👥 Target Users
-
-General public
-
-Rural and urban citizens
-
-Students
-
-Job seekers
-
-Government authorities
-
-🏆 Vision
-
-To create a unified AI-powered platform that acts as a bridge between citizens and government services, ensuring transparency, accessibility, and efficiency.
